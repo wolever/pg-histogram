@@ -46,7 +46,7 @@ range. For example, if the ``range`` is ``[10, 12)``, ``10`` and ``11`` would
 fall inside the bucket's range.
 
 The ``overflow`` column is the number of values which fell outside the bucket's
-range. It is always be zero except for the first bucket, where it may be
+range. It is always zero except for the first bucket, where it may be
 negative, and the last bucket, where it may be positive. For example, if the
 first bucket's range is ``[10, 12)`` and the values are ``9``, ``10``, ``11``,
 then the first bucket's ``count`` will be ``2`` (for ``10`` and ``11``), and
