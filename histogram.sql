@@ -123,7 +123,7 @@ BEGIN
 			r.count,
 			r.overflow,
 			bar,
-			histobar(cumpct, bar_max_width),
+			histogram_bar(cumpct, bar_max_width),
 			cumsum,
 			cumpct
 		);
